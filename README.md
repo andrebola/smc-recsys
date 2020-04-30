@@ -1,4 +1,4 @@
-# AMPLAB - Music Recommender Systems
+# MTLAB - Music Recommender Systems
 
 This repository contains the code to generate recommendations using [LFM-360k dataset](https://www.upf.edu/web/mtg/lastfm360k)
 
