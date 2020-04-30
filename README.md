@@ -1,24 +1,29 @@
 # AMPLAB - Music Recommender Systems
 
-This repository contains the code to generate recommendations using LFM-360k dataset
+This repository contains the code to generate recommendations using [LFM-360k dataset](https://www.upf.edu/web/mtg/lastfm360k)
 
-To start first create a virtualenv and install the dependencies:
+# Install dependencies
+To start create a virtualenv and install the dependencies:
 ```
 python3 -m venv env
 source env/bin/activate
 pip install -r requirements.txt
 ```
 
-Then you can run the python notebook or you can run the scripts from the command line.
+# Run Jupyter notebook
+
+You can run the python notebook or you can run the scripts from the command line.
 To run the notebook first install jupyter notebooks:
 
 ```
 pip install jupyter
 ```
 
-And then access in the browser to the url: `http://localhost:8888`.
+And then access in the browser to the url: `http://localhost:8888`. Note that you might need to enter the token that is in the console.
 
-The following instructions are to use get the results using the command line.
+# Compute recommendations only from command line
+
+The following instructions are to get the results using the command line.
 
 First run the script to make the split between train and test:
  - generate_mtrx.py
