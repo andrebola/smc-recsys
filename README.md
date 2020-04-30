@@ -19,7 +19,7 @@ To run the notebook first install jupyter notebooks:
 pip install jupyter
 ```
 
-And then access in the browser to the url: `http://localhost:8888`. Note that you might need to enter the token that is in the console.
+And then access in the browser to the url: `http://localhost:8888`. Note that you might need to enter the token that is in the console. After that open the notebook with name `Recsys_example.ipynb`.
 
 # Compute recommendations only from command line
 
